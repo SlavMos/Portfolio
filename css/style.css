@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+.container {
+    max-width: 1440px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgb(248, 244, 244);
+    height: 300px;
+}
+
+
+.header__info {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.header__gmail {
+    margin-right: 20px;
+    font-family: Raleway;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(109, 117, 117);
+
+}
+
+.header__telegram {
+    font-family: Raleway;
+    line-height: 32px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(109, 117, 117);
+}
+
+
+.header__gmail::before {
+    content: url(../img/icons8-gmail-logo-24.png);
+    position: relative;
+    top: 5px;
+}
+
+.header__telegram::before {
+    content: url(../img/icons8-telegram-app-24.png);
+    position: relative;
+    top: 5px;
+}
+
+.about__me {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 50px;
+    font-size: 80px;
+    line-height: 96px;
+    font-weight: 700;
+    color: rgb(16, 16, 17);
+
+}
+
+.about__info {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Raleway;
+    font-weight: 400;
+
+}
+
+.photo {
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+}
+
+.about {
+    background: rgb(248, 244, 244);
+
+}
+
+.about__inf {
+    text-align: center;
+    line-height: 20px;
+    font-family: raleway;
+    font-weight: 400;
+    font-size: 16px;
+    color: cornflowerblue;
+}
+
+.skilss {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.list {
+    margin-left: 50px;
+}
+
+.about__lists {
+    font-size: 20px;
+
+
+    padding-top: 30px;
+    font-family: Raleway;
+    color: cornflowerblue;
+
+}
+
+.works {
+    background: rgb(248, 244, 244);
+    padding-top: 40px;
+    padding-bottom: 3px;
+}
+
+.works__info {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.work1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.abrouter {
+    width: 85%;
+}
+
+
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+    font-family: raleway;
+}
+
+.three {
+    width: 85%;
+}
+
+.fore {
+    width: 85%;
+}
+
+
+.bouncy {
+    width: 85%;
+}
+
+@media(max-width:600px) {
+    .about__me {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+
+    .about__info {
+        font-size: 20px;
+    }
+
+    .img {
+        width: 40%;
+    }
+
+    .header {
+        height: 250px;
+    }
+
+    .about {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:510px) {
+    .header__info {
+        margin-right: 0%;
+        text-align: left;
+
+    }
+}
+
+@media(max-width:410px) {
+    .header__telegram {
+        display: block;
+        text-align: left;
+    }
+}
